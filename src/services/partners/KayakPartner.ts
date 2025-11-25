@@ -439,7 +439,7 @@ export class KayakPartner extends CarRentalPartner {
       baseUrl: 'https://www.kayak.com/cars',
       affiliateId: 'kan_317604_592756', // Always use the new affiliate ID
       utmParams: {
-        utm_source: this.config.configurations.utm_source || 'rental-bookings',
+        utm_source: this.config.configurations.utm_source || 'rental-discounts',
         utm_medium: this.config.configurations.utm_medium || 'affiliate',
       }
     };

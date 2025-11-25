@@ -198,7 +198,7 @@ const LocationFallback: React.FC<LocationFallbackProps> = ({ onLocationSelect, o
       <div className="bg-white rounded-lg shadow-xl max-w-md w-full p-6">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold flex items-center">
-            <MapPin className="w-5 h-5 mr-2 text-blue-600" />
+            <MapPin className="w-5 h-5 mr-2 text-[#219f61]" />
             Set Your Location
           </h3>
           <Button

@@ -213,11 +213,11 @@ const PrivacyPolicy = () => {
           subsections: [
             {
               title: 'Privacy Team',
-              content: 'Email: business@rental-bookings.com'
+              content: 'Email: business@rental-discounts.com'
             },
             {
               title: 'Data Protection Officer',
-              content: 'Email: business@rental-bookings.com'
+              content: 'Email: business@rental-discounts.com'
             }
           ]
         }
@@ -409,11 +409,11 @@ const PrivacyPolicy = () => {
           subsections: [
             {
               title: 'Privacy Team',
-              content: 'Email: business@rental-bookings.com'
+              content: 'Email: business@rental-discounts.com'
             },
             {
               title: 'Data Protection Officer',
-              content: 'Email: business@rental-bookings.com'
+              content: 'Email: business@rental-discounts.com'
             }
           ]
         }
@@ -605,11 +605,11 @@ const PrivacyPolicy = () => {
           subsections: [
             {
               title: 'Equipe de Privacidade',
-              content: 'E-mail: business@rental-bookings.com'
+              content: 'E-mail: business@rental-discounts.com'
             },
             {
               title: 'Oficial de Proteção de Dados',
-              content: 'E-mail: business@rental-bookings.com'
+              content: 'E-mail: business@rental-discounts.com'
             }
           ]
         }
@@ -797,15 +797,15 @@ const PrivacyPolicy = () => {
         },
         {
           title: 'Contattaci',
-          content: 'Se hai domande su questa Informativa sulla Privacy o le nostre pratiche di dati, contattaci a business@rental-bookings.com.',
+          content: 'Se hai domande su questa Informativa sulla Privacy o le nostre pratiche di dati, contattaci a business@rental-discounts.com.',
           subsections: [
             {
               title: 'Equipe di Privacità',
-              content: 'E-mail: business@rental-bookings.com'
+              content: 'E-mail: business@rental-discounts.com'
             },
             {
               title: 'DPO',
-              content: 'E-mail: business@rental-bookings.com'
+              content: 'E-mail: business@rental-discounts.com'
             }
           ]
         }
@@ -993,15 +993,15 @@ const PrivacyPolicy = () => {
         },
         {
           title: 'Nous Contacter',
-          content: 'Si vous avez des questions sur cette Politique de Confidentialité ou nos pratiques de données, contactez-nous à business@rental-bookings.com.',
+          content: 'Si vous avez des questions sur cette Politique de Confidentialité ou nos pratiques de données, contactez-nous à business@rental-discounts.com.',
           subsections: [
             {
               title: 'Equipe de Confidentialité',
-              content: 'E-mail: business@rental-bookings.com'
+              content: 'E-mail: business@rental-discounts.com'
             },
             {
               title: 'DPO',
-              content: 'E-mail: business@rental-bookings.com'
+              content: 'E-mail: business@rental-discounts.com'
             }
           ]
         }
@@ -1189,15 +1189,15 @@ const PrivacyPolicy = () => {
         },
         {
           title: 'Kontaktieren Sie Uns',
-          content: 'Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenpraktiken haben, kontaktieren Sie uns unter business@rental-bookings.com.',
+          content: 'Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenpraktiken haben, kontaktieren Sie uns unter business@rental-discounts.com.',
           subsections: [
             {
               title: 'Datenschutzteam',
-              content: 'E-Mail: business@rental-bookings.com'
+              content: 'E-Mail: business@rental-discounts.com'
             },
             {
               title: 'Datenschutzbeauftragter',
-              content: 'E-Mail: business@rental-bookings.com'
+              content: 'E-Mail: business@rental-discounts.com'
             }
           ]
         }
@@ -1217,7 +1217,7 @@ const PrivacyPolicy = () => {
             {/* Back Button */}
             <Link 
               to="/" 
-              className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6 transition-colors"
+              className="inline-flex items-center text-[#219f61] hover:text-[#1a7d4d] mb-6 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               {t('backToHome') || 'Back to Home'}
@@ -1247,7 +1247,7 @@ const PrivacyPolicy = () => {
                   {section.subsections && (
                     <div className="ml-4 space-y-4">
                       {section.subsections.map((subsection: any, subIndex: number) => (
-                        <div key={subIndex} className="border-l-4 border-blue-200 pl-4">
+                        <div key={subIndex} className="border-l-4 border-green-200 pl-4">
                           <h3 className="text-lg font-medium text-gray-800 mb-2">
                             {subsection.title}
                           </h3>

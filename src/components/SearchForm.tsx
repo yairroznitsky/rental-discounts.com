@@ -293,7 +293,7 @@ export const SearchForm = () => {
                   isGenerating={isGenerating}
                   isDisabled={isGenerating}
                   onSubmit={handleSubmit}
-                  className="h-12 px-8 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
+                  className="h-12 px-8 bg-[#219f61] hover:bg-[#1a7d4d] text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
                 />
               </div>
             </div>
@@ -307,7 +307,7 @@ export const SearchForm = () => {
                 id="different-dropoff-desktop"
                 checked={differentDropoff}
                 onChange={(e) => handleDifferentDropoffChange(e.target.checked)}
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500"
+                className="w-4 h-4 text-[#219f61] bg-gray-100 border-gray-300 rounded focus:ring-[#219f61]"
               />
               <label htmlFor="different-dropoff-desktop" className="text-sm font-medium text-gray-700 cursor-pointer">
                 {t('dropCarOffDifferentLocation')}
@@ -330,7 +330,7 @@ export const SearchForm = () => {
                     onChange={handleDropoffLocationChange}
                     placeholder="Airport, city, or station"
                     isPickup={false}
-                    className="pl-10 h-12 border-2 border-yellow-400 focus:border-yellow-500 rounded-lg w-full"
+                    className="pl-10 h-12 border-2 border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61] rounded-lg w-full"
                     onRef={setDropoffLocationSearchRef}
                   />
                 </div>
@@ -342,7 +342,7 @@ export const SearchForm = () => {
 
       {/* Mobile Layout - Unchanged */}
       <div className="lg:hidden space-y-4">
-        <div className="bg-amber-400 p-4 rounded-xl border border-amber-400">
+        <div className="bg-[#E5EAEA] p-4 rounded-xl border border-[#E5EAEA]">
           <LocationInputs
             pickup={formData.pickup}
             dropoff={formData.dropoff}

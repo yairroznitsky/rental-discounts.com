@@ -44,10 +44,10 @@ const Results = () => {
                 <h3 className="font-semibold text-lg mb-2 text-gray-900">Sample Car {i}</h3>
                 <p className="text-gray-600 mb-3">Compact • Automatic • 4 seats</p>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-blue-600">
+                  <span className="text-2xl font-bold text-[#219f61]">
                     $45/day
                   </span>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-all duration-200 font-medium shadow-md hover:shadow-lg">
+                  <button className="bg-[#219f61] hover:bg-[#1a7d4d] text-white px-4 py-2 rounded-lg transition-all duration-200 font-medium shadow-md hover:shadow-lg">
                     {t('selectCar')}
                   </button>
                 </div>

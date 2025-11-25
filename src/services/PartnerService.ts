@@ -122,7 +122,7 @@ export class PartnerService {
         configurations: {
           campaign_id: '11001',
           tracking_param: '21207214',
-          utm_source: 'rental-bookings',
+          utm_source: 'rental-discounts',
           utm_medium: 'widget'
         }
       };
@@ -140,7 +140,7 @@ export class PartnerService {
         configurations: {
           mediaPartnerId: '3495464',
           utm_term: '21207558',
-          utm_source: 'rental-bookings',
+          utm_source: 'rental-discounts',
           utm_medium: 'affiliate'
         }
       };
@@ -156,8 +156,8 @@ export class PartnerService {
         displayName: 'Kayak',
         isActive: true,
         configurations: {
-          affiliateId: 'rental-bookings',
-          utm_source: 'rental-bookings',
+          affiliateId: 'rental-discounts',
+          utm_source: 'rental-discounts',
           utm_medium: 'affiliate'
         }
       };
@@ -200,7 +200,7 @@ export class PartnerService {
       configurations: {
         campaign_id: '11001',
         tracking_param: '21207214',
-        utm_source: 'rental-bookings',
+        utm_source: 'rental-discounts',
         utm_medium: 'widget'
       }
     };
@@ -215,7 +215,7 @@ export class PartnerService {
       configurations: {
         mediaPartnerId: '3495464',
         utm_term: '21207558',
-        utm_source: 'rental-bookings',
+        utm_source: 'rental-discounts',
         utm_medium: 'affiliate'
       }
     };
@@ -228,8 +228,8 @@ export class PartnerService {
       displayName: 'Kayak',
       isActive: true,
       configurations: {
-        affiliateId: 'rental-bookings',
-        utm_source: 'rental-bookings',
+        affiliateId: 'rental-discounts',
+        utm_source: 'rental-discounts',
         utm_medium: 'affiliate'
       }
     };

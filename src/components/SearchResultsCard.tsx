@@ -45,7 +45,7 @@ export const SearchResultsCard: React.FC<SearchResultsCardProps> = ({ searchData
           </div>
           
           <div className="flex items-start space-x-3">
-            <Calendar className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
+            <Calendar className="h-5 w-5 text-[#219f61] mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-sm font-medium text-gray-600">{t('pickupDate')}</p>
               <p className="text-gray-900">{formatDate(searchData.pickupDate) || t('notSpecified')}</p>
@@ -71,7 +71,7 @@ export const SearchResultsCard: React.FC<SearchResultsCardProps> = ({ searchData
           </div>
           
           <div className="flex items-start space-x-3">
-            <Calendar className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
+            <Calendar className="h-5 w-5 text-[#219f61] mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-sm font-medium text-gray-600">{t('dropoffDate')}</p>
               <p className="text-gray-900">{formatDate(searchData.dropoffDate) || t('notSpecified')}</p>

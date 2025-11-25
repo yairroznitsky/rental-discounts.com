@@ -132,7 +132,7 @@ export const DateTimeInputs: React.FC<DateTimeInputsProps> = ({
             }}
             min={today} // Prevent selecting past dates
             required
-            className={`${textSize} font-medium border-amber-400 focus:border-amber-500 focus:ring-amber-500`}
+            className={`${textSize} font-medium border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61]`}
           />
         </div>
         <div>
@@ -165,7 +165,7 @@ export const DateTimeInputs: React.FC<DateTimeInputsProps> = ({
             }}
             min={getMinDropoffDate()} // Minimum dropoff date based on pickup date
             required
-            className={`${textSize} font-medium border-amber-400 focus:border-amber-500 focus:ring-amber-500`}
+            className={`${textSize} font-medium border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61]`}
           />
         </div>
         <div>

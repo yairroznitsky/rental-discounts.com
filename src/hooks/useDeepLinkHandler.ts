@@ -62,7 +62,7 @@ export const useDeepLinkHandler = () => {
         pickuplocation: iataCode,
         pickupdate: pickupDateTime,
         dropoffdate: dropoffDateTime,
-        utm_source: 'rental-bookings',
+        utm_source: 'rental-discounts',
         utm_medium: 'fallback'
       });
       

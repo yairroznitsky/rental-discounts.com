@@ -169,8 +169,8 @@ export const ModernDatePicker: React.FC<ModernDatePickerProps> = ({
                 className={cn(
                   "h-8 w-8 p-0 text-sm",
                   !isCurrentMonth && "text-gray-400",
-                  isToday(date) && "bg-blue-100 text-blue-600 font-semibold",
-                  isSelected(date) && "bg-blue-600 text-white hover:bg-blue-700",
+                  isToday(date) && "bg-green-100 text-[#219f61] font-semibold",
+                  isSelected(date) && "bg-[#219f61] text-white hover:bg-[#1a7d4d]",
                   isPastDate(date) && "text-gray-300 cursor-not-allowed",
                   !isSelected(date) && !isToday(date) && !isPastDate(date) && "hover:bg-gray-100"
                 )}
@@ -194,7 +194,7 @@ export const ModernDatePicker: React.FC<ModernDatePickerProps> = ({
               variant="ghost"
               size="sm"
               onClick={handleToday}
-              className="text-blue-600 hover:text-blue-700"
+              className="text-[#219f61] hover:text-[#1a7d4d]"
             >
               Today
             </Button>

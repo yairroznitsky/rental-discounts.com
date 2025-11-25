@@ -107,7 +107,7 @@ export class AutoRentalsPartner extends CarRentalPartner {
       cid: '11001',
       tpm: clickId || '21207214', // Inject the click ID
       utm_campaign: '11001',
-      utm_source: 'rental-bookings',
+      utm_source: 'rental-discounts',
       utm_medium: 'widget',
       pl: pickupLocationName, // Use full location name for pickup
       dl: dropoffLocationName, // Use full location name for dropoff
@@ -180,7 +180,7 @@ export class AutoRentalsPartner extends CarRentalPartner {
       campaignId: this.config.configurations.campaign_id || '11001',
       trackingParam: this.config.configurations.tracking_param || '21207214',
       utmParams: {
-        utm_source: this.config.configurations.utm_source || 'rental-bookings',
+        utm_source: this.config.configurations.utm_source || 'rental-discounts',
         utm_medium: this.config.configurations.utm_medium || 'widget',
       }
     };

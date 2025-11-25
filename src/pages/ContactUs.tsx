@@ -18,7 +18,7 @@ const ContactUs = () => {
           title: 'Business Inquiries',
           content: 'For business partnerships and corporate inquiries, please contact our business development team.',
           icon: Mail,
-          details: 'business@rental-bookings.com'
+          details: 'business@rental-discounts.com'
         }
       ],
       formTitle: 'Send us a Message',
@@ -40,7 +40,7 @@ const ContactUs = () => {
           title: 'Consultas Comerciales',
           content: 'Para asociaciones comerciales y consultas corporativas, contáctenos con nuestro equipo de desarrollo comercial.',
           icon: Mail,
-          details: 'business@rental-bookings.com'
+          details: 'business@rental-discounts.com'
         }
       ],
       formTitle: 'Envíenos un Mensaje',
@@ -62,7 +62,7 @@ const ContactUs = () => {
           title: 'Consultas Comerciais',
           content: 'Para parcerias comerciais e consultas corporativas, entre em contato com nossa equipe de desenvolvimento comercial.',
           icon: Mail,
-          details: 'business@rental-bookings.com'
+          details: 'business@rental-discounts.com'
         }
       ],
       formTitle: 'Envie-nos uma Mensagem',
@@ -84,7 +84,7 @@ const ContactUs = () => {
           title: 'Richieste Commerciali',
           content: 'Per partnership commerciali e richieste aziendali, contatta il nostro team di sviluppo commerciale.',
           icon: Mail,
-          details: 'business@rental-bookings.com'
+          details: 'business@rental-discounts.com'
         }
       ],
       formTitle: 'Inviaci un Messaggio',
@@ -106,7 +106,7 @@ const ContactUs = () => {
           title: 'Demandes Commerciales',
           content: 'Pour les partenariats commerciaux et les demandes d\'entreprise, veuillez contacter notre équipe de développement commercial.',
           icon: Mail,
-          details: 'business@rental-bookings.com'
+          details: 'business@rental-discounts.com'
         }
       ],
       formTitle: 'Envoyez-nous un Message',
@@ -128,7 +128,7 @@ const ContactUs = () => {
           title: 'Geschäftsanfragen',
           content: 'Für Geschäftspartnerschaften und Unternehmensanfragen kontaktieren Sie bitte unser Business Development Team.',
           icon: Mail,
-          details: 'business@rental-bookings.com'
+          details: 'business@rental-discounts.com'
         }
       ],
       formTitle: 'Senden Sie uns eine Nachricht',
@@ -154,7 +154,7 @@ const ContactUs = () => {
             {/* Back Button */}
             <Link 
               to="/" 
-              className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6 transition-colors"
+              className="inline-flex items-center text-[#219f61] hover:text-[#1a7d4d] mb-6 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               {t('backToHome')}
@@ -185,8 +185,8 @@ const ContactUs = () => {
                     return (
                       <div key={index} className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
-                          <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
-                            <IconComponent className="w-5 h-5 text-blue-600" />
+                          <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                            <IconComponent className="w-5 h-5 text-[#219f61]" />
                           </div>
                         </div>
                         <div>
@@ -196,7 +196,7 @@ const ContactUs = () => {
                           <p className="text-gray-600 text-sm mb-2">
                             {section.content}
                           </p>
-                          <p className="text-blue-600 font-medium">
+                          <p className="text-[#219f61] font-medium">
                             {section.details}
                           </p>
                         </div>
@@ -224,7 +224,7 @@ const ContactUs = () => {
                       id="name"
                       name="name"
                       required
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#219f61] focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -236,7 +236,7 @@ const ContactUs = () => {
                       id="email"
                       name="email"
                       required
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#219f61] focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -248,7 +248,7 @@ const ContactUs = () => {
                       id="subject"
                       name="subject"
                       required
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#219f61] focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -260,12 +260,12 @@ const ContactUs = () => {
                       name="message"
                       rows={4}
                       required
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#219f61] focus:border-transparent"
                     />
                   </div>
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+                    className="w-full bg-[#219f61] hover:bg-[#1a7d4d] text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
                   >
                     {currentContent.formFields.submit}
                   </button>

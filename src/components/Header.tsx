@@ -4,12 +4,12 @@ import { Car } from 'lucide-react';
 
 export const Header = () => {
   return (
-    <header className="bg-blue-600 text-white">
+    <header className="bg-[#219f61] text-white">
       <div className="container mx-auto px-4 py-4 flex items-center">
         <div className="flex items-center">
           <img 
-            src="/logo-inverse-2025-10-20.png" 
-            alt="RentalBookings" 
+            src="/logo-inverse.png?v=3" 
+            alt="RentalDiscounts" 
             className="h-6 sm:h-8 md:h-10 w-auto"
           />
         </div>

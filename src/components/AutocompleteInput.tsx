@@ -246,7 +246,7 @@ export const AutocompleteInput: React.FC<AutocompleteInputProps> = ({
         >
           {isLoading ? (
             <div className="p-4 text-center text-gray-500">
-              <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600 mx-auto"></div>
+              <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-[#219f61] mx-auto"></div>
               <p className="mt-2">Searching locations...</p>
             </div>
           ) : (

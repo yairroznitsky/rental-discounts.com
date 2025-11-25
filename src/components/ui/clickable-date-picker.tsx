@@ -161,7 +161,7 @@ export const ClickableDatePicker: React.FC<ClickableDatePickerProps> = ({
         onClick={handleOpen}
         className={cn(
           "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm",
-          "border-amber-400 focus:border-amber-500 focus:ring-amber-500",
+          "border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61]",
           className
         )}
       >
@@ -227,8 +227,8 @@ export const ClickableDatePicker: React.FC<ClickableDatePickerProps> = ({
                 className={cn(
                   "h-8 w-8 p-0 text-sm rounded hover:bg-gray-100",
                   !isCurrentMonth && "text-gray-400",
-                  isToday(date) && "bg-blue-100 text-blue-600 font-semibold",
-                  isSelected(date) && "bg-blue-600 text-white hover:bg-blue-700",
+                  isToday(date) && "bg-green-100 text-[#219f61] font-semibold",
+                  isSelected(date) && "bg-[#219f61] text-white hover:bg-[#1a7d4d]",
                   isPastDate(date) && "text-gray-300 cursor-not-allowed hover:bg-transparent"
                 )}
               >

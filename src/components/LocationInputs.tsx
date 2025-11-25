@@ -48,7 +48,7 @@ export const LocationInputs: React.FC<LocationInputsProps> = ({
             onChange={onPickupChange}
             placeholder={t('locationPlaceholder')}
             isPickup={true}
-            className="pl-10 h-12 border-2 border-yellow-400 focus:border-yellow-500 rounded-lg w-full"
+            className="pl-10 h-12 border-2 border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61] rounded-lg w-full"
             onRef={onPickupRef}
           />
         </div>
@@ -65,7 +65,7 @@ export const LocationInputs: React.FC<LocationInputsProps> = ({
           isDesktop ? 'text-base' : 'text-lg'
         }`}>
           <span className="flex items-center gap-2">
-            <span className="inline-block w-2 h-2 bg-blue-500 rounded-full"></span>
+            <span className="inline-block w-2 h-2 bg-[#219f61] rounded-full"></span>
             {t('pickupLocation')}
           </span>
         </Label>
@@ -88,7 +88,7 @@ export const LocationInputs: React.FC<LocationInputsProps> = ({
               id={`different-dropoff${suffix}`}
               checked={differentDropoff}
               onChange={(e) => onDifferentDropoffChange(e.target.checked)}
-              className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500"
+              className="w-4 h-4 text-[#219f61] bg-gray-100 border-gray-300 rounded focus:ring-[#219f61]"
             />
             <Label htmlFor={`different-dropoff${suffix}`} className="text-sm text-gray-600">
               {t('differentDropoffLabel')}

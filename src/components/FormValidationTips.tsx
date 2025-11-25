@@ -23,26 +23,26 @@ export const FormValidationTips: React.FC<FormValidationTipsProps> = ({
   const getIcon = (type: ValidationTip['type']) => {
     switch (type) {
       case 'info':
-        return <Info className="w-4 h-4 text-blue-500" />;
+        return <Info className="w-4 h-4 text-[#219f61]" />;
       case 'warning':
         return <AlertCircle className="w-4 h-4 text-yellow-500" />;
       case 'success':
         return <CheckCircle className="w-4 h-4 text-green-500" />;
       default:
-        return <Info className="w-4 h-4 text-blue-500" />;
+        return <Info className="w-4 h-4 text-[#219f61]" />;
     }
   };
 
   const getBackgroundColor = (type: ValidationTip['type']) => {
     switch (type) {
       case 'info':
-        return 'bg-blue-50 border-blue-200 text-blue-800';
+        return 'bg-green-50 border-green-200 text-green-800';
       case 'warning':
         return 'bg-yellow-50 border-yellow-200 text-yellow-800';
       case 'success':
         return 'bg-green-50 border-green-200 text-green-800';
       default:
-        return 'bg-blue-50 border-blue-200 text-blue-800';
+        return 'bg-green-50 border-green-200 text-green-800';
     }
   };
 

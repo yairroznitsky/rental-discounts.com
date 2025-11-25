@@ -16,7 +16,7 @@ export const SearchHero = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/coastal-bmw-background.webp')`
+            backgroundImage: `url('/coastal-mustang-background.png')`
           }}
         />
         <div className="absolute inset-0 bg-black/40"></div>
@@ -35,7 +35,7 @@ export const SearchHero = () => {
       {/* Desktop Search Form */}
       <div className="flex-1 items-center justify-center px-4 pb-6 hidden lg:flex relative z-20">
         <div className="w-full max-w-7xl">
-          <div className="bg-amber-400 rounded-3xl shadow-2xl p-6 md:p-8 border border-gray-100 backdrop-blur-sm bg-amber-400/95">
+          <div className="bg-[#E5EAEA] rounded-3xl shadow-2xl p-6 md:p-8 border border-gray-100 backdrop-blur-sm bg-[#E5EAEA]/95">
             <SearchForm />
           </div>
         </div>
@@ -49,7 +49,7 @@ export const SearchHero = () => {
       </div>
 
       {/* Mobile Version - Simplified */}
-      <div className="lg:hidden bg-blue-600 min-h-screen flex flex-col">
+      <div className="lg:hidden bg-[#219f61] min-h-screen flex flex-col">
         <div className={cn(
           "container mx-auto max-w-lg text-center px-4 transition-all duration-300 ease-in-out",
           isFormPushedUp ? "pt-1" : "pt-8"
@@ -73,7 +73,7 @@ export const SearchHero = () => {
           isFormPushedUp ? "flex-1" : "flex-1"
         )}>
           <div className="w-full max-w-lg">
-            <div className="bg-white rounded-xl shadow-2xl p-4 border-4 border-yellow-400">
+            <div className="bg-white rounded-xl shadow-2xl p-4 border-4 border-[#219f61]">
               <SearchForm />
             </div>
           </div>

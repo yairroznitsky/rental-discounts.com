@@ -188,7 +188,7 @@ export class SkyscannerPartner extends CarRentalPartner {
         utm_term: this.config.configurations.utm_term || '21208037',
       },
       utmParams: {
-        utm_source: this.config.configurations.utm_source || 'rental-bookings',
+        utm_source: this.config.configurations.utm_source || 'rental-discounts',
         utm_medium: this.config.configurations.utm_medium || 'affiliate',
       }
     };

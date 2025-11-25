@@ -27,7 +27,7 @@ const TermsOfService = () => {
         },
         {
           title: 'Intellectual Property',
-          content: 'All content on this website, including text, graphics, logos, and software, is the property of our company or its content suppliers and is protected by copyright laws.'
+          content: 'All content on this website, including text, graphics, logos, and software, is the property of Be Like Water Ltd or its content suppliers and is protected by copyright laws.'
         },
         {
           title: 'Limitation of Liability',
@@ -39,11 +39,11 @@ const TermsOfService = () => {
         },
         {
           title: 'Governing Law',
-          content: 'These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which our company operates, without regard to its conflict of law provisions.'
+          content: 'These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Be Like Water Ltd operates, without regard to its conflict of law provisions.'
         },
         {
           title: 'Contact Information',
-          content: 'If you have any questions about these Terms of Service, please contact us at business@rental-bookings.com.'
+          content: 'If you have any questions about these Terms of Service, please contact us at business@rental-discounts.com.'
         }
       ]
     },
@@ -65,7 +65,7 @@ const TermsOfService = () => {
         },
         {
           title: 'Propiedad Intelectual',
-          content: 'Todo el contenido en este sitio web, incluyendo texto, gráficos, logos y software, es propiedad de nuestra empresa o sus proveedores de contenido y está protegido por las leyes de derechos de autor.'
+          content: 'Todo el contenido en este sitio web, incluyendo texto, gráficos, logos y software, es propiedad de Be Like Water Ltd o sus proveedores de contenido y está protegido por las leyes de derechos de autor.'
         },
         {
           title: 'Limitación de Responsabilidad',
@@ -77,11 +77,11 @@ const TermsOfService = () => {
         },
         {
           title: 'Ley Aplicable',
-          content: 'Estos términos se regirán e interpretarán de acuerdo con las leyes de la jurisdicción en la que opera nuestra empresa, sin tener en cuenta sus disposiciones de conflicto de leyes.'
+          content: 'Estos términos se regirán e interpretarán de acuerdo con las leyes de la jurisdicción en la que opera Be Like Water Ltd, sin tener en cuenta sus disposiciones de conflicto de leyes.'
         },
         {
           title: 'Información de Contacto',
-          content: 'Si tiene alguna pregunta sobre estos Términos de Servicio, contáctenos en business@rental-bookings.com.'
+          content: 'Si tiene alguna pregunta sobre estos Términos de Servicio, contáctenos en business@rental-discounts.com.'
         }
       ]
     },
@@ -103,7 +103,7 @@ const TermsOfService = () => {
         },
         {
           title: 'Propriedade Intelectual',
-          content: 'Todo o conteúdo neste site, incluindo texto, gráficos, logos e software, é propriedade de nossa empresa ou seus fornecedores de conteúdo e é protegido pelas leis de direitos autorais.'
+          content: 'Todo o conteúdo neste site, incluindo texto, gráficos, logos e software, é propriedade de Be Like Water Ltd ou seus fornecedores de conteúdo e é protegido pelas leis de direitos autorais.'
         },
         {
           title: 'Limitação de Responsabilidade',
@@ -115,11 +115,11 @@ const TermsOfService = () => {
         },
         {
           title: 'Lei Aplicável',
-          content: 'Estes termos serão regidos e interpretados de acordo com as leis da jurisdição em que nossa empresa opera, sem consideração às suas disposições de conflito de leis.'
+          content: 'Estes termos serão regidos e interpretados de acordo com as leis da jurisdição em que Be Like Water Ltd opera, sem consideração às suas disposições de conflito de leis.'
         },
         {
           title: 'Informações de Contato',
-          content: 'Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco em business@rental-bookings.com.'
+          content: 'Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco em business@rental-discounts.com.'
         }
       ]
     },
@@ -141,7 +141,7 @@ const TermsOfService = () => {
         },
         {
           title: 'Proprietà Intellettuale',
-          content: 'Tutto il contenuto su questo sito web, inclusi testo, grafica, loghi e software, è di proprietà della nostra azienda o dei suoi fornitori di contenuti ed è protetto dalle leggi sul copyright.'
+          content: 'Tutto il contenuto su questo sito web, inclusi testo, grafica, loghi e software, è di proprietà di Be Like Water Ltd o dei suoi fornitori di contenuti ed è protetto dalle leggi sul copyright.'
         },
         {
           title: 'Limitazione di Responsabilità',
@@ -153,11 +153,11 @@ const TermsOfService = () => {
         },
         {
           title: 'Legge Applicabile',
-          content: 'Questi termini saranno regolati e interpretati in conformità con le leggi della giurisdizione in cui opera la nostra azienda, indipendentemente dalle sue disposizioni sui conflitti di legge.'
+          content: 'Questi termini saranno regolati e interpretati in conformità con le leggi della giurisdizione in cui opera Be Like Water Ltd, indipendentemente dalle sue disposizioni sui conflitti di legge.'
         },
         {
           title: 'Informazioni di Contatto',
-          content: 'Se hai domande su questi Termini di Servizio, contattaci a business@rental-bookings.com.'
+          content: 'Se hai domande su questi Termini di Servizio, contattaci a business@rental-discounts.com.'
         }
       ]
     },
@@ -179,7 +179,7 @@ const TermsOfService = () => {
         },
         {
           title: 'Propriété Intellectuelle',
-          content: 'Tout le contenu de ce site web, y compris le texte, les graphiques, les logos et les logiciels, est la propriété de notre entreprise ou de ses fournisseurs de contenu et est protégé par les lois sur les droits d\'auteur.'
+          content: 'Tout le contenu de ce site web, y compris le texte, les graphiques, les logos et les logiciels, est la propriété de Be Like Water Ltd ou de ses fournisseurs de contenu et est protégé par les lois sur les droits d\'auteur.'
         },
         {
           title: 'Limitation de Responsabilité',
@@ -191,11 +191,11 @@ const TermsOfService = () => {
         },
         {
           title: 'Loi Applicable',
-          content: 'Ces conditions seront régies et interprétées conformément aux lois de la juridiction dans laquelle notre entreprise opère, sans égard à ses dispositions de conflit de lois.'
+          content: 'Ces conditions seront régies et interprétées conformément aux lois de la juridiction dans laquelle Be Like Water Ltd opère, sans égard à ses dispositions de conflit de lois.'
         },
         {
           title: 'Informations de Contact',
-          content: 'Si vous avez des questions sur ces Conditions d\'Utilisation, contactez-nous à business@rental-bookings.com.'
+          content: 'Si vous avez des questions sur ces Conditions d\'Utilisation, contactez-nous à business@rental-discounts.com.'
         }
       ]
     },
@@ -217,7 +217,7 @@ const TermsOfService = () => {
         },
         {
           title: 'Geistiges Eigentum',
-          content: 'Alle Inhalte auf dieser Website, einschließlich Text, Grafiken, Logos und Software, sind das Eigentum unseres Unternehmens oder seiner Inhaltslieferanten und sind durch Urheberrechtsgesetze geschützt.'
+          content: 'Alle Inhalte auf dieser Website, einschließlich Text, Grafiken, Logos und Software, sind das Eigentum von Be Like Water Ltd oder seiner Inhaltslieferanten und sind durch Urheberrechtsgesetze geschützt.'
         },
         {
           title: 'Haftungsbeschränkung',
@@ -229,11 +229,11 @@ const TermsOfService = () => {
         },
         {
           title: 'Geltendes Recht',
-          content: 'Diese Bedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der unser Unternehmen tätig ist, und werden in Übereinstimmung mit diesen ausgelegt, unabhängig von den Bestimmungen über Kollisionsrecht.'
+          content: 'Diese Bedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der Be Like Water Ltd tätig ist, und werden in Übereinstimmung mit diesen ausgelegt, unabhängig von den Bestimmungen über Kollisionsrecht.'
         },
         {
           title: 'Kontaktinformationen',
-          content: 'Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns unter business@rental-bookings.com.'
+          content: 'Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns unter business@rental-discounts.com.'
         }
       ]
     }
@@ -250,7 +250,7 @@ const TermsOfService = () => {
             {/* Back Button */}
             <Link 
               to="/" 
-              className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6 transition-colors"
+              className="inline-flex items-center text-[#219f61] hover:text-[#1a7d4d] mb-6 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               {t('backToHome')}

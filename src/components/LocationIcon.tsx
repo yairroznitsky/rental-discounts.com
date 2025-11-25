@@ -20,7 +20,7 @@ export const LocationIcon: React.FC<LocationIconProps> = ({
   const getLocationIcon = (type?: string) => {
     switch (type) {
       case 'airport':
-        return <Plane className="h-4 w-4 text-blue-500 flex-shrink-0" />;
+        return <Plane className="h-4 w-4 text-[#219f61] flex-shrink-0" />;
       case 'city':
         return <Building2 className="h-4 w-4 text-green-500 flex-shrink-0" />;
       case 'hotel':

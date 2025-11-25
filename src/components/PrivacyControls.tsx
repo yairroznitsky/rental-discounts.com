@@ -194,7 +194,7 @@ export const PrivacyControls: React.FC<PrivacyControlsProps> = ({ userId }) => {
       title: currentContent.downloadData,
       description: currentContent.downloadDesc,
       action: () => handleDataRequest('download'),
-      color: 'bg-blue-100 text-blue-600'
+      color: 'bg-green-100 text-[#219f61]'
     },
     {
       icon: Trash2,
@@ -288,13 +288,13 @@ export const PrivacyControls: React.FC<PrivacyControlsProps> = ({ userId }) => {
 
       {isLoading && (
         <div className="flex items-center justify-center p-4">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#219f61]"></div>
         </div>
       )}
 
       <div className="text-center">
         <p className="text-sm text-gray-500 mb-4">
-          Need help? <a href="/contact-us" className="text-blue-600 hover:underline">Contact our privacy team</a>
+          Need help? <a href="/contact-us" className="text-[#219f61] hover:underline">Contact our privacy team</a>
         </p>
       </div>
     </div>

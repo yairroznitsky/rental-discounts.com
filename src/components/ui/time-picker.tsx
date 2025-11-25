@@ -140,7 +140,7 @@ export const TimePicker: React.FC<TimePickerProps> = ({
         onClick={handleOpen}
         className={cn(
           "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm",
-          "border-amber-400 focus:border-amber-500 focus:ring-amber-500",
+          "border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61]",
           className
         )}
       >
@@ -170,7 +170,7 @@ export const TimePicker: React.FC<TimePickerProps> = ({
               onClick={() => handleTimeSelect(time)}
               className={cn(
                 "px-3 py-2 cursor-pointer hover:bg-gray-100",
-                value === time && "bg-blue-600 text-white hover:bg-blue-700"
+                value === time && "bg-[#219f61] text-white hover:bg-[#1a7d4d]"
               )}
             >
               <span className="flex-1 text-left">{formatTimeDisplay(time)}</span>

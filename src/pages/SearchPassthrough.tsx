@@ -145,7 +145,7 @@ const SearchPassthrough: React.FC = () => {
 
   if (isLocationLoading || isProcessing || isGenerating) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-[#219f61] via-[#1a7d4d] to-[#155c38] flex items-center justify-center p-4">
         <div className="text-center max-w-sm w-full">
           {/* Logo/Brand - Sleeker design */}
           <div className="mb-12">
@@ -157,7 +157,7 @@ const SearchPassthrough: React.FC = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-3xl font-bold text-white tracking-tight">
-                  rental-bookings
+                  rental-discounts
                 </span>
               </div>
             </div>
@@ -182,7 +182,7 @@ const SearchPassthrough: React.FC = () => {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-[#219f61] via-[#1a7d4d] to-[#155c38] flex items-center justify-center p-4">
         <div className="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl p-8 max-w-sm w-full text-center border border-white/20">
           <div className="flex flex-col items-center space-y-6">
             <div className="p-4 bg-red-50 rounded-2xl">
@@ -198,14 +198,14 @@ const SearchPassthrough: React.FC = () => {
               <Button 
                 onClick={handleGoBack}
                 variant="outline"
-                className="flex items-center space-x-2 border-blue-600 text-blue-600 hover:bg-blue-50 rounded-xl px-6 py-2"
+                className="flex items-center space-x-2 border-[#219f61] text-[#219f61] hover:bg-green-50 rounded-xl px-6 py-2"
               >
                 <ArrowLeft className="w-4 h-4" />
                 <span>Go Back</span>
               </Button>
               <Button 
                 onClick={handleRetry}
-                className="bg-blue-600 hover:bg-blue-700 text-white rounded-xl px-6 py-2"
+                className="bg-[#219f61] hover:bg-[#1a7d4d] text-white rounded-xl px-6 py-2"
               >
                 Try Again
               </Button>

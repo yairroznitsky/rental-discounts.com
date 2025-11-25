@@ -45,7 +45,7 @@ export const ErrorDashboard: React.FC = () => {
       case 'medium':
         return <Info className="h-4 w-4 text-yellow-600" />;
       case 'low':
-        return <Wifi className="h-4 w-4 text-blue-600" />;
+        return <Wifi className="h-4 w-4 text-[#219f61]" />;
       default:
         return <Info className="h-4 w-4 text-gray-600" />;
     }
@@ -60,7 +60,7 @@ export const ErrorDashboard: React.FC = () => {
       case 'medium':
         return 'bg-yellow-100 text-yellow-800 border-yellow-200';
       case 'low':
-        return 'bg-blue-100 text-blue-800 border-blue-200';
+        return 'bg-green-100 text-green-800 border-green-200';
       default:
         return 'bg-gray-100 text-gray-800 border-gray-200';
     }
@@ -75,7 +75,7 @@ export const ErrorDashboard: React.FC = () => {
       case 'network_error':
         return 'bg-orange-100 text-orange-800 border-orange-200';
       case 'partner_error':
-        return 'bg-blue-100 text-blue-800 border-blue-200';
+        return 'bg-green-100 text-green-800 border-green-200';
       case 'validation_error':
         return 'bg-yellow-100 text-yellow-800 border-yellow-200';
       default:
