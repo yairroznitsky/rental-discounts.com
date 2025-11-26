@@ -85,10 +85,10 @@ export const SearchHero = () => {
           isFormPushedUp ? "opacity-0 h-0 overflow-hidden" : "opacity-100"
         )}>
           <ul className="space-y-2 text-foreground text-sm">
-            <li>✓ Get up to 30% off</li>
-            <li>✓ Free cancellations</li>
-            <li>✓ Compare over 200 car rental companies</li>
-            <li>✓ Exclusive discounts</li>
+            <li>✓ {t('heroBenefit1')}</li>
+            <li>✓ {t('heroBenefit2')}</li>
+            <li>✓ {t('heroBenefit3')}</li>
+            <li>✓ {t('heroBenefit4')}</li>
           </ul>
         </div>
         

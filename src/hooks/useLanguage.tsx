@@ -38,20 +38,20 @@ const translations: Translations = {
   
   // Hero section
   heroMainTitle: { 
-    en: 'Search. Compare. Rent.', 
-    es: 'Buscar. Comparar. Alquilar.', 
-    pt: 'Buscar. Comparar. Alugar.', 
-    it: 'Cerca. Confronta. Noleggia.', 
-    fr: 'Rechercher. Comparer. Louer.', 
-    de: 'Suchen. Vergleichen. Mieten.' 
+    en: 'Car Rental Discounts', 
+    es: 'Descuentos en Alquiler de Coches', 
+    pt: 'Descontos em Aluguel de Carros', 
+    it: 'Sconti sul Noleggio Auto', 
+    fr: 'Réductions sur la Location de Voitures', 
+    de: 'Rabatte auf Autovermietung' 
   },
   heroSubtitle: { 
-    en: 'Car rental at the best prices',
-    es: 'Alquiler de coches a los mejores precios',
-    pt: 'Aluguel de carros pelos melhores preços',
-    it: 'Noleggio auto ai migliori prezzi',
-    fr: 'Location de voitures aux meilleurs prix',
-    de: 'Autovermietung zu den besten Preisen'
+    en: 'Unlock Exclusive Discounts Now!',
+    es: '¡Desbloquea Descuentos Exclusivos Ahora!',
+    pt: 'Desbloqueie Descontos Exclusivos Agora!',
+    it: 'Sblocca Sconti Esclusivi Ora!',
+    fr: 'Débloquez des Réductions Exclusives Maintenant!',
+    de: 'Schalten Sie Jetzt Exklusive Rabatte Frei!'
   },
   trustedBy: { 
     en: 'Trusted by millions of travelers worldwide', 
@@ -60,6 +60,38 @@ const translations: Translations = {
     it: 'Fidato da milioni di viaggiatori in tutto il mondo', 
     fr: 'Fiable pour des millions de voyageurs dans le monde', 
     de: 'Vertraut von Millionen von Reisenden weltweit' 
+  },
+  heroBenefit1: { 
+    en: 'Exclusive discount codes', 
+    es: 'Códigos de descuento exclusivos', 
+    pt: 'Códigos de desconto exclusivos', 
+    it: 'Codici sconto esclusivi', 
+    fr: 'Codes de réduction exclusifs', 
+    de: 'Exklusive Rabattcodes' 
+  },
+  heroBenefit2: { 
+    en: 'Save up to 30% on rentals', 
+    es: 'Ahorra hasta un 30% en alquileres', 
+    pt: 'Economize até 30% em aluguéis', 
+    it: 'Risparmia fino al 30% sui noleggi', 
+    fr: 'Économisez jusqu\'à 30% sur les locations', 
+    de: 'Sparen Sie bis zu 30% bei Mietwagen' 
+  },
+  heroBenefit3: { 
+    en: 'Compare 200+ rental companies', 
+    es: 'Compara más de 200 empresas de alquiler', 
+    pt: 'Compare mais de 200 locadoras', 
+    it: 'Confronta oltre 200 compagnie di noleggio', 
+    fr: 'Comparez plus de 200 sociétés de location', 
+    de: 'Vergleichen Sie über 200 Autovermietungen' 
+  },
+  heroBenefit4: { 
+    en: 'Cancel anytime, free of charge', 
+    es: 'Cancela en cualquier momento, sin cargo', 
+    pt: 'Cancele a qualquer momento, sem custo', 
+    it: 'Cancella in qualsiasi momento, gratuitamente', 
+    fr: 'Annulez à tout moment, gratuitement', 
+    de: 'Jederzeit kostenlos stornieren' 
   },
   
   // Search form
