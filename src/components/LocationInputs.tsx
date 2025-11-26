@@ -48,7 +48,7 @@ export const LocationInputs: React.FC<LocationInputsProps> = ({
             onChange={onPickupChange}
             placeholder={t('locationPlaceholder')}
             isPickup={true}
-            className="pl-10 h-12 border-2 border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61] rounded-lg w-full"
+            className="pl-10 h-12 border-2 border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61] rounded-none w-full"
             onRef={onPickupRef}
           />
         </div>

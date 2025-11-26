@@ -2,7 +2,7 @@ import React from 'react';
 import { SearchForm } from './SearchForm';
 import { useLanguage } from '@/hooks/useLanguage';
 import { useFormPosition } from '@/hooks/useFormPosition';
-import { CarRentalCarousel } from './CarRentalCarousel';
+import { CarRentalCompanies } from './CarRentalCompanies';
 import { cn } from '@/lib/utils';
 
 export const SearchHero = () => {
@@ -10,41 +10,43 @@ export const SearchHero = () => {
   const { isFormPushedUp } = useFormPosition();
 
   return (
-    <section className="relative min-h-screen flex flex-col">
+    <section className="relative min-h-screen lg:min-h-[65vh] flex flex-col">
       {/* Desktop Background Image */}
       <div className="absolute inset-0 hidden lg:block">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/coastal-mustang-background.png')`
+            backgroundImage: `url('/highway-sunset-background.jpg')`
           }}
         />
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-black/30"></div>
       </div>
 
       {/* Desktop Title Section */}
-      <div className="container mx-auto max-w-7xl text-center pt-12 md:pt-16 px-4 hidden lg:block relative z-10">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-lg">
+      <div className="container mx-auto max-w-7xl text-center pt-0 lg:pt-8 px-4 hidden lg:block relative z-10">
+        <h1 className="text-4xl md:text-6xl font-bold mb-10 text-white drop-shadow-lg">
           {t('heroMainTitle')}
         </h1>
-        <p className="text-xl md:text-2xl text-white/95 mb-8 drop-shadow-md">
-          {t('heroSubtitle')}
-        </p>
       </div>
 
       {/* Desktop Search Form */}
       <div className="flex-1 items-center justify-center px-4 pb-6 hidden lg:flex relative z-20">
         <div className="w-full max-w-7xl">
-          <div className="bg-[#E5EAEA] rounded-3xl shadow-2xl p-6 md:p-8 border border-gray-100 backdrop-blur-sm bg-[#E5EAEA]/95">
+          <div className="bg-[#E5EAEA] rounded-none shadow-2xl p-6 md:p-8 border border-gray-100 backdrop-blur-sm bg-[#E5EAEA]/95">
             <SearchForm />
           </div>
         </div>
       </div>
 
-      {/* Desktop Car Rental Companies Carousel */}
-      <div className="px-4 pb-6 hidden lg:block relative z-10">
-        <div className="container mx-auto max-w-7xl">
-          <CarRentalCarousel />
+      {/* Desktop Benefits - At bottom border */}
+      <div className="hidden lg:block relative z-10 pb-6">
+        <div className="container mx-auto max-w-7xl px-4">
+          <ul className="flex flex-wrap justify-center gap-6 text-white drop-shadow-md">
+            <li className="text-sm md:text-base font-medium">✓ {t('heroBenefit1')}</li>
+            <li className="text-sm md:text-base font-medium">✓ {t('heroBenefit2')}</li>
+            <li className="text-sm md:text-base font-medium">✓ {t('heroBenefit3')}</li>
+            <li className="text-sm md:text-base font-medium">✓ {t('heroBenefit4')}</li>
+          </ul>
         </div>
       </div>
 
@@ -55,17 +57,11 @@ export const SearchHero = () => {
           isFormPushedUp ? "pt-1" : "pt-8"
         )}>
           <h1 className={cn(
-            "font-bold mb-2 text-foreground transition-all duration-300 ease-in-out",
+            "font-bold mb-4 text-foreground transition-all duration-300 ease-in-out",
             isFormPushedUp ? "text-xl" : "text-3xl"
           )}>
             {t('heroMainTitle')}
           </h1>
-          <p className={cn(
-            "text-foreground/90 mb-4 transition-all duration-300 ease-in-out",
-            isFormPushedUp ? "text-sm" : "text-base"
-          )}>
-            {t('heroSubtitle')}
-          </p>
         </div>
         
         <div className={cn(
@@ -73,7 +69,7 @@ export const SearchHero = () => {
           isFormPushedUp ? "flex-1" : "flex-1"
         )}>
           <div className="w-full max-w-lg">
-            <div className="bg-white rounded-xl shadow-2xl p-4 border-4 border-[#219f61]">
+            <div className="bg-white rounded-none shadow-2xl p-4 border-4 border-[#219f61]">
               <SearchForm />
             </div>
           </div>
@@ -92,12 +88,12 @@ export const SearchHero = () => {
           </ul>
         </div>
         
-        {/* Carousel - Hide when form is pushed up */}
+        {/* Car Rental Companies - Hide when form is pushed up */}
         <div className={cn(
           "px-4 pb-4 transition-all duration-300 ease-in-out",
           isFormPushedUp ? "opacity-0 h-0 overflow-hidden" : "opacity-100"
         )}>
-          <CarRentalCarousel />
+          <CarRentalCompanies />
         </div>
       </div>
     </section>

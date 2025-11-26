@@ -258,7 +258,7 @@ export const SearchForm = () => {
       {/* Desktop Layout - All fields in one line with proper alignment */}
       <div className="hidden lg:block">
         {/* Main horizontal form row */}
-        <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
+        <div className="bg-white rounded-none shadow-lg border border-gray-200 p-6">
           <div className="flex items-end gap-4">
             {/* Pickup Location */}
             <div className="flex-1">
@@ -330,7 +330,7 @@ export const SearchForm = () => {
                     onChange={handleDropoffLocationChange}
                     placeholder="Airport, city, or station"
                     isPickup={false}
-                    className="pl-10 h-12 border-2 border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61] rounded-lg w-full"
+                    className="pl-10 h-12 border-2 border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61] rounded-none w-full"
                     onRef={setDropoffLocationSearchRef}
                   />
                 </div>
@@ -340,9 +340,9 @@ export const SearchForm = () => {
         </div>
       </div>
 
-      {/* Mobile Layout - Unchanged */}
+      {/* Mobile Layout */}
       <div className="lg:hidden space-y-4">
-        <div className="bg-[#E5EAEA] p-4 rounded-xl border border-[#E5EAEA]">
+        <div className="bg-[#E5EAEA] p-4 rounded-none border border-[#E5EAEA]">
           <LocationInputs
             pickup={formData.pickup}
             dropoff={formData.dropoff}

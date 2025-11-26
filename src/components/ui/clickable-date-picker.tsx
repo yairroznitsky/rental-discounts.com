@@ -160,7 +160,7 @@ export const ClickableDatePicker: React.FC<ClickableDatePickerProps> = ({
       <div
         onClick={handleOpen}
         className={cn(
-          "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm",
+          "flex h-10 w-full rounded-none border border-input bg-background px-3 py-2 text-base ring-offset-background cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm",
           "border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61]",
           className
         )}
@@ -176,7 +176,7 @@ export const ClickableDatePicker: React.FC<ClickableDatePickerProps> = ({
 
       {isOpen && createPortal(
         <div 
-          className="date-picker-dropdown fixed z-[99999] bg-white rounded-lg shadow-lg border border-gray-200 p-4"
+          className="date-picker-dropdown fixed z-[99999] bg-white rounded-none shadow-lg border border-gray-200 p-4"
           style={{
             top: dropdownPosition.top,
             left: dropdownPosition.left,
@@ -191,7 +191,7 @@ export const ClickableDatePicker: React.FC<ClickableDatePickerProps> = ({
             <div className="flex items-center space-x-2">
               <button
                 onClick={() => setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() - 1))}
-                className="p-1 hover:bg-gray-100 rounded"
+                className="p-1 hover:bg-gray-100 rounded-none"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -199,7 +199,7 @@ export const ClickableDatePicker: React.FC<ClickableDatePickerProps> = ({
               </button>
               <button
                 onClick={() => setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() + 1))}
-                className="p-1 hover:bg-gray-100 rounded"
+                className="p-1 hover:bg-gray-100 rounded-none"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -225,7 +225,7 @@ export const ClickableDatePicker: React.FC<ClickableDatePickerProps> = ({
                 disabled={isPastDate(date)}
                 onClick={() => handleDateSelect(date)}
                 className={cn(
-                  "h-8 w-8 p-0 text-sm rounded hover:bg-gray-100",
+                  "h-8 w-8 p-0 text-sm rounded-none hover:bg-gray-100",
                   !isCurrentMonth && "text-gray-400",
                   isToday(date) && "bg-green-100 text-[#219f61] font-semibold",
                   isSelected(date) && "bg-[#219f61] text-white hover:bg-[#1a7d4d]",

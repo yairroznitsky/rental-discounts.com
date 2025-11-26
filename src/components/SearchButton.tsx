@@ -51,7 +51,7 @@ export const SearchButton: React.FC<SearchButtonProps> = ({
       onClick={handleClick}
       aria-label={ariaLabel}
       aria-describedby={isGenerating ? "search-loading-description" : undefined}
-      className={`search-button w-full text-white font-bold py-4 text-lg shadow-lg hover:shadow-2xl hover:scale-105 active:scale-95 transform transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed text-center ${className}`}
+      className={`search-button w-full text-white font-bold py-4 text-lg shadow-lg hover:shadow-2xl hover:scale-105 active:scale-95 transform transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed text-center rounded-none ${className}`}
     >
       <div className="flex items-center justify-center gap-2">
         {isGenerating && (

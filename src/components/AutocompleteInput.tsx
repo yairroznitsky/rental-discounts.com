@@ -224,13 +224,13 @@ export const AutocompleteInput: React.FC<AutocompleteInputProps> = ({
       </div>
       
       {error && (
-        <div className="absolute z-[99999] w-full mt-1 bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-600 shadow-lg">
+        <div className="absolute z-[99999] w-full mt-1 bg-red-50 border border-red-200 rounded-none p-3 text-sm text-red-600 shadow-lg">
           {error}
         </div>
       )}
 
       {noResults && !isLoading && !error && (
-        <div className="absolute z-[99999] w-full mt-1 bg-gray-50 border border-gray-200 rounded-lg p-3 text-sm text-gray-600 text-center shadow-lg">
+        <div className="absolute z-[99999] w-full mt-1 bg-gray-50 border border-gray-200 rounded-none p-3 text-sm text-gray-600 text-center shadow-lg">
           No locations found for "{value}"
         </div>
       )}
@@ -239,7 +239,7 @@ export const AutocompleteInput: React.FC<AutocompleteInputProps> = ({
         <div 
           ref={dropdownRef}
           className={cn(
-            "bg-white border border-gray-200 rounded-lg shadow-lg",
+            "bg-white border border-gray-200 rounded-none shadow-lg",
             isMobile ? "" : "absolute top-full left-0 right-0 z-[100100] mt-1"
           )}
           style={getDropdownStyle()}

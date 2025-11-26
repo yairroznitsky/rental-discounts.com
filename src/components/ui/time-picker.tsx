@@ -139,7 +139,7 @@ export const TimePicker: React.FC<TimePickerProps> = ({
       <div
         onClick={handleOpen}
         className={cn(
-          "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm",
+          "flex h-10 w-full rounded-none border border-input bg-background px-3 py-2 text-base ring-offset-background cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm",
           "border-[#219f61] focus:border-[#1a7d4d] focus:ring-[#219f61]",
           className
         )}
@@ -156,7 +156,7 @@ export const TimePicker: React.FC<TimePickerProps> = ({
       {isOpen && createPortal(
         <div 
           ref={dropdownRef}
-          className="time-picker-dropdown fixed z-[99999] bg-white rounded-lg shadow-lg border border-gray-200 max-h-60 overflow-y-auto"
+          className="time-picker-dropdown fixed z-[99999] bg-white rounded-none shadow-lg border border-gray-200 max-h-60 overflow-y-auto"
           style={{
             top: dropdownPosition.top,
             left: dropdownPosition.left,

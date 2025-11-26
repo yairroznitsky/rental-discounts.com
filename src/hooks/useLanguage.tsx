@@ -93,6 +93,14 @@ const translations: Translations = {
     fr: 'Annulez à tout moment, gratuitement', 
     de: 'Jederzeit kostenlos stornieren' 
   },
+  brandsHeading: { 
+    en: 'Compare prices across all major brands, search and book in one place', 
+    es: 'Compara precios de todas las marcas principales, busca y reserva en un solo lugar', 
+    pt: 'Compare preços de todas as principais marcas, pesquise e reserve em um só lugar', 
+    it: 'Confronta i prezzi di tutti i principali marchi, cerca e prenota in un unico posto', 
+    fr: 'Comparez les prix de toutes les grandes marques, recherchez et réservez en un seul endroit', 
+    de: 'Vergleichen Sie Preise aller großen Marken, suchen und buchen Sie an einem Ort' 
+  },
   
   // Search form
   pickupLocation: { en: 'Pickup Location', es: 'Lugar de Recogida', pt: 'Local de Retirada', it: 'Luogo di Ritiro', fr: 'Lieu de Prise en Charge', de: 'Abholort' },
