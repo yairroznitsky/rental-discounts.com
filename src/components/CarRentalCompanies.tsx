@@ -13,6 +13,11 @@ import { useLanguage } from '@/hooks/useLanguage';
 
 const carRentalCompanies = [
   { 
+    name: 'Enterprise',
+    component: EnterpriseLogo,
+    color: '#00A651'
+  },
+  { 
     name: 'Hertz',
     component: HertzLogo,
     color: '#FFC72C'
@@ -26,11 +31,6 @@ const carRentalCompanies = [
     name: 'Budget',
     component: BudgetLogo,
     color: '#FF6600'
-  },
-  { 
-    name: 'Enterprise',
-    component: EnterpriseLogo,
-    color: '#00A651'
   },
   { 
     name: 'Alamo',
@@ -99,7 +99,15 @@ export const CarRentalCompanies = () => {
           {carRentalCompanies.map((company, index) => {
             const LogoComponent = company.component;
             return (
-              <div key={index} className="flex-1 min-w-[80px] max-w-[120px] lg:max-w-none lg:flex-1">
+              <div
+                key={index}
+                className={
+                  // Show only first 8 brands on mobile; show all on desktop
+                  index >= 8
+                    ? 'hidden lg:flex flex-1 min-w-[80px] max-w-[120px] lg:max-w-none lg:flex-1'
+                    : 'flex flex-1 min-w-[80px] max-w-[120px] lg:max-w-none lg:flex-1'
+                }
+              >
                 <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-2 lg:p-2 border border-gray-100 hover:border-gray-200 group flex items-center justify-center aspect-square lg:aspect-auto lg:h-20">
                   <div className="w-full h-full flex items-center justify-center" aria-label={`${company.name} logo`}>
                     <LogoComponent 
