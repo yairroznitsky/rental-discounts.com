@@ -49,19 +49,19 @@ export const SearchHero = () => {
       </div>
 
       {/* Mobile Version - Simplified */}
-      <div className="lg:hidden bg-[#219f61] min-h-screen flex flex-col">
+      <div className="lg:hidden bg-white min-h-screen flex flex-col">
         <div className={cn(
           "container mx-auto max-w-lg text-center px-4 transition-all duration-300 ease-in-out",
           isFormPushedUp ? "pt-1" : "pt-8"
         )}>
           <h1 className={cn(
-            "font-bold mb-2 text-white transition-all duration-300 ease-in-out",
+            "font-bold mb-2 text-foreground transition-all duration-300 ease-in-out",
             isFormPushedUp ? "text-xl" : "text-3xl"
           )}>
             {t('heroMainTitle')}
           </h1>
           <p className={cn(
-            "text-white/90 mb-4 transition-all duration-300 ease-in-out",
+            "text-foreground/90 mb-4 transition-all duration-300 ease-in-out",
             isFormPushedUp ? "text-sm" : "text-base"
           )}>
             {t('heroSubtitle')}
@@ -84,7 +84,7 @@ export const SearchHero = () => {
           "px-4 pb-4 transition-all duration-300 ease-in-out",
           isFormPushedUp ? "opacity-0 h-0 overflow-hidden" : "opacity-100"
         )}>
-          <ul className="space-y-2 text-white text-sm">
+          <ul className="space-y-2 text-foreground text-sm">
             <li>✓ Get up to 30% off</li>
             <li>✓ Free cancellations</li>
             <li>✓ Compare over 200 car rental companies</li>
