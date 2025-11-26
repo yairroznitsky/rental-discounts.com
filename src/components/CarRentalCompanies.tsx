@@ -95,7 +95,7 @@ export const CarRentalCompanies = () => {
         style={{ outline: 'none' }}
         className="w-full cursor-pointer"
       >
-        <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-2 lg:gap-2">
+        <div className="grid grid-cols-4 lg:flex lg:flex-nowrap justify-center items-center gap-2 lg:gap-2">
           {carRentalCompanies.map((company, index) => {
             const LogoComponent = company.component;
             return (
@@ -104,11 +104,11 @@ export const CarRentalCompanies = () => {
                 className={
                   // Show only first 8 brands on mobile; show all on desktop
                   index >= 8
-                    ? 'hidden lg:flex flex-1 min-w-[80px] max-w-[120px] lg:max-w-none lg:flex-1'
-                    : 'flex flex-1 min-w-[80px] max-w-[120px] lg:max-w-none lg:flex-1'
+                    ? 'hidden lg:flex lg:flex-1'
+                    : 'flex lg:flex-1'
                 }
               >
-                <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-2 lg:p-2 border border-gray-100 hover:border-gray-200 group flex items-center justify-center aspect-square lg:aspect-auto lg:h-20">
+                <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-2 lg:p-2 border border-gray-100 hover:border-gray-200 group flex items-center justify-center aspect-square lg:aspect-auto lg:h-20 w-full">
                   <div className="w-full h-full flex items-center justify-center" aria-label={`${company.name} logo`}>
                     <LogoComponent 
                       className="w-full h-auto max-h-12 md:max-h-16 lg:max-h-14 transition-all duration-300 group-hover:scale-105 group-hover:brightness-110"
