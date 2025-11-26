@@ -69,8 +69,8 @@ export const CarRentalCompanies = () => {
   
   return (
     <div className="w-full max-w-7xl mx-auto">
-      {/* Heading */}
-      <div className="text-center mb-6 lg:mb-8">
+      {/* Heading - Desktop only */}
+      <div className="hidden lg:block text-center mb-6 lg:mb-8">
         <p className="text-lg lg:text-2xl text-gray-700 font-semibold">
           {t('brandsHeading')}
         </p>

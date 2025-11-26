@@ -50,14 +50,25 @@ export const SearchHero = () => {
         </div>
       </div>
 
+      {/* Mobile Background Image */}
+      <div className="absolute inset-0 lg:hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('/highway-sunset-background.jpg')`
+          }}
+        />
+        <div className="absolute inset-0 bg-black/30"></div>
+      </div>
+
       {/* Mobile Version - Simplified */}
-      <div className="lg:hidden bg-white min-h-screen flex flex-col">
+      <div className="lg:hidden relative min-h-screen flex flex-col">
         <div className={cn(
-          "container mx-auto max-w-lg text-center px-4 transition-all duration-300 ease-in-out",
+          "container mx-auto max-w-lg text-center px-4 transition-all duration-300 ease-in-out relative z-10",
           isFormPushedUp ? "pt-1" : "pt-8"
         )}>
           <h1 className={cn(
-            "font-bold mb-4 text-foreground transition-all duration-300 ease-in-out",
+            "font-bold mb-4 text-white drop-shadow-lg transition-all duration-300 ease-in-out",
             isFormPushedUp ? "text-xl" : "text-3xl"
           )}>
             {t('heroMainTitle')}
@@ -65,8 +76,8 @@ export const SearchHero = () => {
         </div>
         
         <div className={cn(
-          "flex items-center justify-center px-2 pb-4 transition-all duration-300 ease-in-out",
-          isFormPushedUp ? "flex-1" : "flex-1"
+          "flex items-center justify-center px-2 pb-4 transition-all duration-300 ease-in-out relative z-10",
+          isFormPushedUp ? "flex-1 mt-0" : "flex-1 mt-4"
         )}>
           <div className="w-full max-w-lg">
             <div className="bg-white rounded-none shadow-2xl p-4 border-4 border-[#219f61]">
@@ -77,10 +88,10 @@ export const SearchHero = () => {
         
         {/* Benefits - Hide when form is pushed up */}
         <div className={cn(
-          "px-4 pb-4 transition-all duration-300 ease-in-out",
+          "px-4 pb-4 transition-all duration-300 ease-in-out relative z-10",
           isFormPushedUp ? "opacity-0 h-0 overflow-hidden" : "opacity-100"
         )}>
-          <ul className="space-y-2 text-foreground text-sm">
+          <ul className="space-y-2 text-white drop-shadow-md text-sm">
             <li>✓ {t('heroBenefit1')}</li>
             <li>✓ {t('heroBenefit2')}</li>
             <li>✓ {t('heroBenefit3')}</li>
@@ -90,7 +101,7 @@ export const SearchHero = () => {
         
         {/* Car Rental Companies - Hide when form is pushed up */}
         <div className={cn(
-          "px-4 pb-4 transition-all duration-300 ease-in-out",
+          "px-4 pb-4 transition-all duration-300 ease-in-out relative z-10",
           isFormPushedUp ? "opacity-0 h-0 overflow-hidden" : "opacity-100"
         )}>
           <CarRentalCompanies />

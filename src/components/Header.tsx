@@ -12,7 +12,7 @@ export const Header = () => {
             <img 
               src="/logo-primary.png" 
               alt="RentalDiscounts" 
-              className="h-5 lg:h-6 w-auto"
+              className="h-4 lg:h-6 w-auto"
             />
           </div>
           

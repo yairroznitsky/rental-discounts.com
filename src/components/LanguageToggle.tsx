@@ -19,7 +19,7 @@ export const LanguageToggle = () => {
 
   return (
     <Select value={language} onValueChange={(value: string) => setLanguage(value)}>
-      <SelectTrigger className="w-12 font-medium bg-transparent border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-gray-400 px-2 h-8">
+      <SelectTrigger className="w-[3.3rem] lg:w-12 font-medium bg-transparent border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-gray-400 px-2 h-8">
         <SelectValue>
           <span className="text-gray-900">
             {currentLanguage?.code.toUpperCase()}
