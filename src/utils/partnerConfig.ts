@@ -19,7 +19,7 @@ export const PARTNER_CONFIG = {
 } as const;
 
 export const DEFAULT_GEO_PARTNER_CONFIG = {
-  newTab: PARTNER_CONFIG.KAYAK,
+  newTab: PARTNER_CONFIG.SKYSCANNER,
   redirect: PARTNER_CONFIG.AUTORENTALS
 } as const;
 
